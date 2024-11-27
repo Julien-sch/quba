@@ -548,8 +548,6 @@ window.downloadData = downloadData; // make function available to inline javascr
   height: 100%;
 }
 
-.leftPart {
-}
 
 .rightPart {
   height: 100%;
