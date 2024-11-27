@@ -1,11 +1,11 @@
 {
-  "name": "Quba",
+  "name": "quba",
   "version": "1.4.2",
   "description": "Viewer",
   "author": "Quba",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && electron-builder build --win --publish never",
+    "build": "vue-cli-service build && electron .",
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\"",
     "pack": "npm run build && electron-builder build --publish=never",
     "start": "vue-cli-service build && electron .",
